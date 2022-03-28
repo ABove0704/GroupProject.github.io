@@ -1,0 +1,169 @@
+body {
+	background-color: lightslategray;
+	position: sticky;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	font-size: 22px;
+	padding: 1em;
+}
+
+main { 
+	background-color: whitesmoke; 
+	position: sticky;
+	margin: 1vw;
+	border: solid dimgray 5px;
+	border-radius: 0px;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	background-color: lightseagreen;
+	position: sticky;
+	border-radius: 50px;
+	width: 400px;
+	height: 150px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	padding: 20em;
+	animation-duration: 10s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+h1 {
+	background-color: lightslategray; 
+	position: sticky;
+	margin: 0vw;
+	border: solid dimgray 0px;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+p {
+	background-color: lightskyblue;
+	position: sticky;
+	font-size: 10px;
+	border-radius: 50px;
+	float: center;
+	margin: 0vw;
+	border: 0vw;
+	align-items: left;
+	justify-content: right;
+	justify-content: space-around;
+}
+
+footer {
+	background-color: lightslategray;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+footer:hover{
+	background-color: lightskyblue;
+	display: flex;
+	color: dimgray;
+	padding: 0vw;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+footer button {
+	padding: 1vw;
+	display: flex;
+	background-color: lightskyblue;
+	border-radius: 50px;
+	margin: 4vw;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+button:hover {
+	display: flex;
+	background-color: greenyellow;
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+p {
+	position: sticky;
+	top: 0px;
+	right: 30px;
+	width: 500px;
+	margin-top: 0px;
+	background: lightgray;
+	font-size: 30px;
+	color: black;
+	padding: 1px;
+	animation-duration: 10s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate ;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+		padding: 50px;
+	}
+
+75%{
+ 	font-size: 300px;
+ 	margin left: 25%;
+ 	width: 150%;
+ }
+
+to {
+	margin-left: 0%;
+	width: 100%;
+	padding: 50px;
+	}
+}
+
+h1 {
+	background-color: lightslategray;
+	position: sticky;
+	animation-name: fadeInOut, moveLeft300px, bounce; 
+	animation-duration: 10s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.slidein {
+	animation-duration: 10s;
+	animation-namne: slidein; 
+	animation-iteration-count: 3;
+	animation-driection: alternate;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+		padding: 50px; 
+}
+
+to {
+	margin-left: 0%;
+	width: 100%;
+	padding: 50px;
+	}
+}
+
+
